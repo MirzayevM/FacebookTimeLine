@@ -14,6 +14,9 @@
 		9660C65F28A0CE4000D76F1D /* FacebookTimeLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660C65E28A0CE4000D76F1D /* FacebookTimeLineTests.swift */; };
 		9660C66928A0CE4000D76F1D /* FacebookTimeLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660C66828A0CE4000D76F1D /* FacebookTimeLineUITests.swift */; };
 		9660C66B28A0CE4000D76F1D /* FacebookTimeLineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660C66A28A0CE4000D76F1D /* FacebookTimeLineUITestsLaunchTests.swift */; };
+		9660C67928A0EA2F00D76F1D /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660C67828A0EA2F00D76F1D /* RoomItem.swift */; };
+		9660C67B28A0EFAA00D76F1D /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660C67A28A0EFAA00D76F1D /* StoryItem.swift */; };
+		9660C67D28A0F95B00D76F1D /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660C67C28A0F95B00D76F1D /* PostItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		9660C66428A0CE4000D76F1D /* FacebookTimeLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookTimeLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9660C66828A0CE4000D76F1D /* FacebookTimeLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookTimeLineUITests.swift; sourceTree = "<group>"; };
 		9660C66A28A0CE4000D76F1D /* FacebookTimeLineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookTimeLineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9660C67828A0EA2F00D76F1D /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		9660C67A28A0EFAA00D76F1D /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		9660C67C28A0F95B00D76F1D /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		9660C64C28A0CE3900D76F1D /* FacebookTimeLine */ = {
 			isa = PBXGroup;
 			children = (
+				9660C67728A0EA1500D76F1D /* cells */,
 				9660C64D28A0CE3900D76F1D /* FacebookTimeLineApp.swift */,
 				9660C64F28A0CE3900D76F1D /* ContentView.swift */,
 				9660C65128A0CE3F00D76F1D /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				9660C66A28A0CE4000D76F1D /* FacebookTimeLineUITestsLaunchTests.swift */,
 			);
 			path = FacebookTimeLineUITests;
+			sourceTree = "<group>";
+		};
+		9660C67728A0EA1500D76F1D /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				9660C67828A0EA2F00D76F1D /* RoomItem.swift */,
+				9660C67A28A0EFAA00D76F1D /* StoryItem.swift */,
+				9660C67C28A0F95B00D76F1D /* PostItem.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +276,9 @@
 			files = (
 				9660C65028A0CE3900D76F1D /* ContentView.swift in Sources */,
 				9660C64E28A0CE3900D76F1D /* FacebookTimeLineApp.swift in Sources */,
+				9660C67D28A0F95B00D76F1D /* PostItem.swift in Sources */,
+				9660C67B28A0EFAA00D76F1D /* StoryItem.swift in Sources */,
+				9660C67928A0EA2F00D76F1D /* RoomItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
